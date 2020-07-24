@@ -1,0 +1,17 @@
+$bgColor: #24292e;
+$text: #fff;
+
+@import './blocks/variables.scss';
+@import './blocks/img.scss';
+@import './blocks/avtor.scss';
+@import './blocks/facebook.scss';
+@import './blocks/wrap-body.scss';
+@import './blocks/title.scss';
+
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+

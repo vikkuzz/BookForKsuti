@@ -1,0 +1,27 @@
+.avtor {
+    text-decoration: none ;
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    color: rgb(238, 229, 229);
+    font-size: 150%;
+    transition: .7s;
+    font-size: 24px;
+    @media (min-width: 460px) {
+        font-size: 32px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: all ease-in-out .3s;
+        }
+    }
+    @media (min-width: 680px) {
+        font-size: 40px;
+
+        &:hover {
+            transform: scale(1.5);
+            transition: all ease-in-out .3s;
+        }
+    }
+}

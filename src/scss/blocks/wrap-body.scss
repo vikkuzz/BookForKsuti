@@ -1,0 +1,16 @@
+.wrap-body {
+    position: relative;
+    min-width: 320px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: auto;
+    font-family: Comic, sans-serif;
+    background-color: $bgColor;
+    color: $text;
+    overflow-x: hidden;
+    background: $bgColor url('../img/1579329573_62-111.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
