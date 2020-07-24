@@ -1,0 +1,65 @@
+.img {
+  min-width: 208px;
+  width: 100%;
+  box-shadow: 1px 0px 12px 6px #dad8d8;
+  -webkit-box-shadow: 1px 0px 12px 6px #dad8d8;
+  -moz-box-shadow: 1px 0px 12px 6px #dad8d8;
+  border-radius: 6px; }
+
+.avtor {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  color: #eee5e5;
+  font-size: 150%;
+  transition: .7s;
+  font-size: 24px; }
+  @media (min-width: 460px) {
+    .avtor {
+      font-size: 32px; }
+      .avtor:hover {
+        transform: scale(1.1);
+        transition: all ease-in-out .3s; } }
+  @media (min-width: 680px) {
+    .avtor {
+      font-size: 40px; }
+      .avtor:hover {
+        transform: scale(1.5);
+        transition: all ease-in-out .3s; } }
+
+.face-book {
+  display: flex;
+  max-width: 720px;
+  margin: auto; }
+
+.wrap-body {
+  position: relative;
+  min-width: 320px;
+  max-width: 1000px;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: auto;
+  font-family: Comic, sans-serif;
+  background-color: #24292e;
+  color: #fff;
+  overflow-x: hidden;
+  background: #24292e url(./static/1579329573_62-111.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0; }
+
+@font-face {
+  font-family: 'Comic';
+  src: url(./fonts/comic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+
+/*# sourceMappingURL=style.css.map*/
